@@ -1,8 +1,8 @@
 import { CheckIf } from "checkif";
 import { EditorExtensions } from "editor-enhancements";
 import { Editor, Plugin, Notice } from "obsidian";
-import getPageTitle from "scraper";
-import getElectronPageTitle from "electron-scraper";
+import getPageTitle from "scrapers/scraper";
+import getElectronPageTitle from "scrapers/electron-scraper";
 import {
   AutoLinkTitleSettingTab,
   AutoLinkTitleSettings,
